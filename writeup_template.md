@@ -26,7 +26,7 @@ The goals / steps of this project are the following:
 [image4]: ./examples/warped_test1.jpg "Warp Example"
 [image5a]: ./examples/color_fit_lines.jpg "Fit Visual"
 [image5b]: ./examples/color_fit_lines_band.jpg "Fit Visual Band"
-[image6]: ./examples/example_output.jpg "Output"
+[image6]: ./examples/test1_output.jpg "Output"
 [video1]: ./project_video.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
@@ -102,7 +102,8 @@ I verified that my perspective transform was working as expected by drawing the 
 
 I followed the sliding window approach described in the project resource. The result looks great.
 
-![alt text][image5]
+![alt text][image5a]
+![alt text][image5b]
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
@@ -120,7 +121,7 @@ I implemented this step in lines # through # in my code in `yet_another_file.py`
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [link to my video result](./project_video.mp4)
+Here's a [link to my video result](./project_video_output.mp4)
 
 ---
 
